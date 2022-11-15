@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="4.627">
+    <testcase classname="patch yapabilme" name="TC-13 patch yapmabilme" time="4.294">
+        <system-out>
+            <![CDATA[Given kullanici "https://jsonplaceholder.typicode.com" jsonplaceholder anasayfasinda put.passed
+And endpointi "todos" ve 198  olan uzantiyi ekler jsonplaceholder put.......passed
+When userId 21, title "tabaklari yika". completed "false" olmali put jsonplaceholder.passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

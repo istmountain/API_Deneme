@@ -4,12 +4,10 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class RsflBookBaseUrl {
+public class GorestBaseUrl {
 
     protected Response response;
     protected RequestSpecification spec=
 
-            new RequestSpecBuilder().setBaseUri("https://restful-booker.herokuapp.com").build();
-
-
+            new RequestSpecBuilder().setBaseUri("https://gorest.co.in/public/v1").build();
 }

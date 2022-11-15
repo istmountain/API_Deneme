@@ -16,7 +16,7 @@ public class Get02_SD {
           @Given("kullanici herokuapp {string} adresine gider")
           public void kullaniciHerokuappAdresineGider(String url) {
               String Url="https://restful-booker.herokuapp.com/booking/1";
-             response=given().when().get(Url);
+              response=given().when().get(Url);
               response.prettyPrint();
          }
 
@@ -27,7 +27,7 @@ public class Get02_SD {
 
        @Then("HTTP Status Code should be {int} olmali herokuapp")
        public void httpStatusCodeShouldBeOlmaliHerokuapp(int statusCode) {
-           response.then().assertThat().statusCode(statusCode);
+
 
           }
 

@@ -13,7 +13,7 @@ import org.junit.runner.RunWith; // Junit tercih etmemizin sebebi RunnerWith not
                 "junit:target/xml-report/cucumber.xml" },
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags ="@tag1",
+        tags ="@a",
         dryRun =false
         // dryRun true yazarsak sadece eksik adimlati bize bildirir.
         //calistirmadan eksik adimlar varmi bunu kontrol eder sadece calismadan. ve bu cok kisa surer

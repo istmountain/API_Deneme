@@ -4,7 +4,7 @@ Feature: Get Request yapabilme
 
      Given kullanici herokuapp "https://restful-booker.herokuapp.com/booking/1" adresine gider
      When  User sends a GET Request to the url herokuapp
-     Then HTTP Status Code should be 404 olmali herokuapp
+     Then  HTTP Status Code should be 404 olmali herokuapp
      And   Status Line should be "HTTP/1.1 404 Not Found"  olmali herokuapp
      And   Response body "Not Found"  icermeli herokuapp
      And   Response body "TechProEd" icermemeli heroukapp
