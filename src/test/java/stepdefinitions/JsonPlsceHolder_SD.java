@@ -385,7 +385,7 @@ public class JsonPlsceHolder_SD extends JsonplaceholderBaseUrl {
 
         response=given().spec(spec).when().get("/{1}/{2}");
         response.prettyPrint();
-        
+        //
 
 
 
